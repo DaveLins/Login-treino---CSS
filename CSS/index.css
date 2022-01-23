@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+body{
+    background-image: url(..//Imagens/alexander-the-great-jerusalem-sebastiano-conca-art-painting-wallpaper-preview.jpg);
+    backdrop-filter: blur( 500px );
+    -webkit-backdrop-filter: blur( 500px );
+}
+
+#Daddy{
+    background: rgba(0, 0, 0, 0.822);
+    box-shadow: 0 8px 32px 0 rgba(241, 241, 241, 0.219);
+    backdrop-filter: blur( 800px );
+    -webkit-backdrop-filter: blur( 800px );
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 21%;
+    width: 800px;
+}
+
+main{
+    display: flex;
+    padding: 40px;
+}
+
+#Section1{
+    width: 50%;
+    text-align: left;
+}
+
+#Section2{
+    width: 50%;
+}
+
+#Titulo{
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+#Email_titulo{
+    display: block;
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+#Email{
+    display: block;
+    background: rgba(0, 0, 0, 0.822);
+    background: rgba(0, 0, 0, 0.822);
+    box-shadow: 0 1px 5px 0 rgba(241, 241, 241, 0.219);
+    backdrop-filter: blur( 100px );
+    -webkit-backdrop-filter: blur( 100px );
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 15px;
+    width: 250px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#Senha_titulo{
+    display: block;
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+#Senha{
+    display: block;
+    background: rgba(0, 0, 0, 0.822);
+    background: rgba(0, 0, 0, 0.822);
+    box-shadow: 0 1px 5px 0 rgba(241, 241, 241, 0.219);
+    backdrop-filter: blur( 100px );
+    -webkit-backdrop-filter: blur( 100px );
+    border-radius: 5px;
+    height: 15px;
+    width: 250px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+#Daddy > #Section2 > img{
+    width: 200px;
+    height: 200px;
+}
+
+#Resetar_senha{
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    position: relative;
+    left: 160px;
+    cursor: pointer;
+
+}
+
+#Entrar{
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: White;
+    padding: 10px;
+    width: 80px;
+    box-shadow: 0 1px 5px 0 rgba(241, 241, 241, 0.219);
+    margin-top: 20px;
+}
+
+#Criar{
+    display: flex;
+    padding: 5px;
+}
+
+#Sem_conta{
+    font-size: 12px;
+    color: rgba(241, 241, 241, 0.39);
+    font-family: sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#create{
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#Section2{
+    padding: 20px;
+}
+
+#Section2 > img{
+    position: relative;
+    left: 20px;
+    border-radius: 15px;
+    width: 330px;
+    height: 450px;
+    position: relative;
+    top: 10px;
+    box-shadow: 0 1px 10px 0 rgba(241, 241, 241, 0.103);
+}
